@@ -9,7 +9,7 @@
       href="/IMAGE/OfficialLogo.svg"
       type="image/x-icon"
     />
-    <link
+    <link 
       rel="shortcut icon"
       href="/IMAGE/LOGO111111-removebg-preview.png"
       type="image/x-icon"
@@ -41,12 +41,12 @@
       </div>
       <div class="heading" style="position: absolute; left: 10%">
         <h1>Login</h1>
-        <h2>Doesn’t have an account yet? <a href="SignUp.html">Sign Up</a></h2>
+        <h2>Don't have an account yet? <a href="SignUp.php">Sign Up</a></h2>
       </div>
     </div>
     <!-- LOGIN -->
     <div class="ContainerForm">
-      <form action="#" method="POST" id="form">
+      <form action="login.php" method="POST" id="form">
         <!-- EMAIL ADDRESS  -->
         <div class="email_address">
           <label for="email">Email Address</label>
@@ -71,7 +71,7 @@
         </div>
       </form>
       <div class="btn-login">
-        <button type="submit" name="login" id="submit">Login</button>
+          <button type="button" id="submitOutsideForm">Login</button>
       </div>
     </div>
 
@@ -92,6 +92,10 @@
           z.style.display = "block";
         }
       }
+
+      document.getElementById("submitOutsideForm").addEventListener("click", function() {
+        document.getElementById("form").submit();
+    });
     </script>
   </body>
 </html>

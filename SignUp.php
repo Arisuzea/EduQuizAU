@@ -16,9 +16,9 @@
     <title>EduQuiz Animation - Sign Up</title>
   </head>
   <body>
-    <!-- Connect database -->
+
     <?php 
-      include 'connect.php'; 
+      include 'register.php'; 
     ?>
 
     <!-- BRAIN IMAGE -->
