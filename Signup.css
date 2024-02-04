@@ -112,7 +112,7 @@ div.fullname {
 }
 /* SHOW PASSWORD  */
 /* SHOW PASSWORD TEMPORARY UNAVAILABLE */
-/* .showPass {
+ .showPass {
   position: relative;
     left: 27rem;
      bottom:7.5rem;
@@ -121,7 +121,7 @@ div.fullname {
 }
 #hide1 {
   display: none;
-} */
+}
 
 /* PASSWORD */
 .Password label {
@@ -183,4 +183,15 @@ div.fullname {
   background-color: white;
   color: #2b4359;
   opacity: 0.8;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin: 20px auto;
+  width: 50%;
+  text-align: center;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
 }
