@@ -13,9 +13,14 @@
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    <title>Signup</title>
+    <title>EduQuiz Animation - Sign Up</title>
   </head>
   <body>
+    <!-- Connect database -->
+    <?php 
+      include 'connect.php'; 
+    ?>
+
     <!-- BRAIN IMAGE -->
     <div class="ImageBrain">
       <img
