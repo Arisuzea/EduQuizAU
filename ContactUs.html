@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/CSS/ContactUs.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <title>Create</title>
+  </head>
+  <div>
+    
+    <!-- TOGGLE SIDE BAR (HAMBUGER MENU) -->
+    <div class="header">
+      <!-- NAVIGATION BAR -->
+      <div class="topnav">
+        <a class="active" href="/HTML/faq.html">FAQ</a>
+        <a href="/HTML/ContactUs.html">Contact Us</a>
+        <a href="/HTML/About.html">About</a>
+      </div>
+      <!-- LOGO -->
+      <!-- If kung nagkaroon ng error sa link ng img>= Homepage.html. Paki re-link na lang -->
+      <div class="logo">
+        <a href="home-page.html"
+          ><img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.15752-9/416254564_229762756884500_5050083700608708339_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEMt8jjZTEtn_GreL2TVYG8S7TkXl5c5JZLtOReXlzklhk0dDkNwv--04WqKhenVzWebcEiajVdeM3ne_fAydVy&_nc_ohc=iRyVOQvgDXAAX8b7Hwp&_nc_ht=scontent.fmnl17-2.fna&oh=03_AdSe7B8d5Ia9g3NJSZBi1B2VW__Dghbi7LYl4iHnyu6-sA&oe=6603A7DE" alt=""
+        /></a>
+        <h3>EduQuiz</h3>
+      </div>
+    </div>
+
+    <!-- TOGGLE ICON  -->
+    <input type="checkbox" class="togggle-sidebar" id="togggle-sidebar" />
+    <label for="togggle-sidebar" class="toggle-icon">
+      <div class="bar-top"></div>
+      <div class="bar-center"></div>
+      <div class="bar-bottom"></div>
+    </label>
+    <div class="content-1">
+        <div class="text-form">
+        <h2> Contact Us</h2>
+        <p>Would you like to contact us? Please report any concerns you may have by completing the form.</p>
+    </div>
+    <!-- CONTACT FORM -->
+    <form action="#">
+      <div class="container-form">
+        <div class="moving-object">
+      <div class="fullname">
+        <!-- FULLNAME -->
+        <div class="input-group">
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="firstname" placeholder="" required />
+        </div>
+        <!-- LAST NAME -->
+        <div class="input-group">
+          <label for="lastname">Last Name</label>
+          <input type="text" id="lastname" name="lastname" placeholder="" required />
+        </div>
+      </div>
+      <div class="input-row">
+        <!--EMAIL_ADDRESS  -->
+        <div class="input-group_1">
+          <label for="email_address">Email Address</label>
+          <input type="email" id="email_address" name="email_address" placeholder="" required />
+        </div>
+        <!-- EDUQUIZ_USERNAME -->
+        <div class="input-group_2">
+          <label for="eduquiz_username">EduQuiz Username</label>
+          <input type="text" id="eduquiz_username" name="eduquiz_username" placeholder="" required />
+        </div>
+       <!-- MESSAGE -->
+       <div class="input-group_3">
+       <label for="message">What can we help you with?</label>
+       <textarea name="message" id="message"  rows="5"></textarea>
+    </div>
+    </div>
+    <div class="btn-submit">
+        <button>Submit</button>
+    </div>
+    </div>
+    </div>
+    </form>
+  
+    </div>
+<!-- CONTACT FORM -->
+    <div class="sidebar">
+      <div class="profile">
+        <img src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/423541781_1597380424450860_699125552750773037_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeENF9Po7kYAFTPZhGT2d-9iSwqhBsvgafBLCqEGy-Bp8Oq8rFPydDTk8zFCYoCqF_zVefFcIEOoTpP4v19fRHp4&_nc_ohc=CR8NGDfaAQ0AX9KLBSJ&_nc_oc=AQntsm06ZmvIY9djyS9lvYRAMg4MUmOdMn0MZUbmg0WJ4SIQqQsDScVbKtqXni28QgY&_nc_ht=scontent.fmnl17-4.fna&oh=03_AdQkJnhVgAZaUsRaUL5nSKoy7jRZsnwqKYgtTRupCsnbzw&oe=660384A7" alt="UI FILLED PROFILE" />
+   
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="/HTML/home-page.html"><ion-icon name="home-outline"></ion-icon>Home</a>
+        </li>
+        <li>
+          <a href="/HTML/Create.html"><ion-icon name="create-outline"></ion-icon>Create</a>
+        </li>
+        <li>
+          <a href="/HTML/library.html"><ion-icon name="library-outline"></ion-icon>Library</a>
+        </li>
+        <li>
+          <a href="/HTML/settings_personal-info.html"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+        </li>
+      </ul>
+      
+    </div>
+
+      <!-- HR > Horizontal Rule (Line)  -->
+      <hr>
+      <div class="hr-contact">
+      <hr>
+   </div>
+   
+  </div>
+  </body>
+</html>

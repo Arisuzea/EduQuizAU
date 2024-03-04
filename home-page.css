@@ -1,0 +1,236 @@
+@import url(https://db.onlinewebfonts.com/c/c99c1c85532dbaf7bc549b3d45836ee6?family=Ahkio+W00+Regular);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ahkio W00 Regular";
+  /* background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/423221555_917645847036311_5264040073845773924_n.png?stp=dst-png_s640x640&_nc_cat=105&ccb=1-7&_nc_sid=510075&_nc_eui2=AeGrGrnxpk8g_fzFsAQM7oZKyJ31HAYY1gbInfUcBhjWBi73rkSDbc9UT1N3Fs4xJcPyOPSgntNlKKODdlZeBgxA&_nc_ohc=Y9ZgM0Mcc4gAX8IrO6D&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQhQIUp3bMNzXmTrEgkJi0sottamML3Qwho_2-1GDJNwg&oe=65F7E40D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center; */
+  background: #d3eaff;
+}
+/* HEADER */
+.header {
+  background: #62a0d8;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+}
+/* LOGO AND H3 HEADING */
+div.logo {
+  position: relative;
+  left: 10%;
+}
+.logo img {
+  margin-left: 13px;
+  width: 6.5rem;
+  display: inline-flex;
+  position: fixed;
+  top: 0.5%;
+}
+.logo h3 {
+  margin-left: 13px;
+  display: inline-flex;
+  position: fixed;
+  top: 2.1%;
+  left: 15.1%;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 19px 50px;
+  text-decoration: none;
+  font-size: 21.5px;
+  font-family: "Ahkio-Regular", cursive;
+  cursor: pointer;
+}
+.topnav a:hover {
+  background: #497ba8;
+  padding: 19px 50px;
+  transition: all 0.3s;
+}
+
+/* SIDEBAR */
+.sidebar {
+  background: #62a0d8;
+  height: 100%;
+  width: 170px;
+  position: fixed;
+  margin-top: 40px;
+  transform: translateX(-250px);
+  transition: transform 250ms ease-in-out;
+}
+/* PROFILE */
+.profile {
+  text-align: center;
+  padding: 20px;
+}
+.profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  cursor: not-allowed;
+}
+
+/* MENU BAR (HOME, CREATE, LIBARARY, SETTING */
+.menu li a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  padding: 30px;
+  font-size: 20px;
+
+  font-family: "Ahkio-Regular", cursive;
+}
+.menu li a:hover {
+  background: #497ba8;
+  transition: all 0.3s;
+}
+/* TOGGLE-ICON (HAMBURGER MENU 3 BAR) */
+.toggle-icon div {
+  background: #000000;
+  width: 100%;
+  height: 3px;
+  transition: all 0.3s;
+}
+.toggle-icon {
+  position: absolute;
+  top: 22px;
+  left: 59px;
+  width: 25px;
+  height: 5rem;
+  z-index: 9999;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.bar-center {
+  margin: 3px 0;
+}
+/* TOGGLE SIDEBAR ANIMATION (HAMBURGER MENU) */
+input[type="checkbox"]:checked ~ .sidebar {
+  transform: translateX(0);
+}
+
+input[type="checkbox"]:checked ~ .toggle-icon > .bar-top {
+  transform: rotate(135deg);
+  margin-top: 8px;
+}
+input[type="checkbox"]:checked ~ .toggle-icon > .bar-center {
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked ~ .toggle-icon > .bar-bottom {
+  transform: rotate(-135deg);
+  margin-top: -12px;
+}
+/* CONTENT */
+div.content-1 {
+  height: 200px;
+  background: rgb(48, 60, 127);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 60, 127, 1) 7%,
+    rgba(98, 195, 216, 1) 91%
+  );
+  width: 87.5%;
+  height: 18rem;
+  position: absolute;
+  top: 5.5rem;
+  left: 10.6rem;
+  border-radius: 15px;
+}
+
+.intro p {
+  font-family: "Ahkio-Regular", cursive;
+  font-size: 25px;
+}
+.intro h1 {
+  font-size: 46px;
+  width: 725px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+div.intro {
+  position: relative;
+  top: 8%;
+  margin-left: 70px;
+  letter-spacing: 2px;
+}
+.search-bar input {
+  width: 60%;
+  padding: 11px 27px 11px;
+  border-radius: 7px;
+  border: none;
+  text-align: start;
+  font-size: 19px;
+  font-family: "Ahkio-Regular", cursive;
+  position: absolute;
+  left: 19%;
+  bottom: 3.5rem;
+  font-style: italic;
+  /* ICON */
+  padding-left: 40px;
+  background: url("https://static.thenounproject.com/png/101791-200.png")
+    no-repeat left;
+  background-size: 30px;
+  background-color: white;
+}
+.search-bar input:focus {
+  border: 1px solid #62a0d8;
+outline: 1px solid #62a0d8;
+}
+.search-bar input:hover {
+  border: 1px solid #62a0d8;
+outline: 1px solid #62a0d8;
+}
+
+hr {
+  border-width: 1px;
+  width: 114%;
+  position: absolute;
+  bottom: 106%;
+  right: -4%;
+  border: 1px solid #497ba8;
+}
+div.content-2 {
+
+  position: absolute;
+  top: 37%;
+  left: 17.5%;
+  background: white;
+  padding-top: 21px;
+  padding-bottom: 18px;
+  border-radius: 100px;
+  width: 67%;
+}
+/* ERROR */
+.content-2 a {
+  text-decoration: none;
+  color: black;
+  padding: 19px 110px;
+  font-size: 23px;
+  font-family: "Ahkio-Regular", cursive;
+  font-style: italic;
+  font-weight: bold;
+
+}
+/* ERROR */
+.content-2 a:hover {
+  background-color: #2b4359;
+  color:white;
+  transition: all 0.3s;
+  padding: 19px 110px;
+  border-radius: 100px;
+ 
+}

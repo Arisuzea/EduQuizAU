@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/CSS/home-page.css" />
+    <link rel="shortcut icon" href="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.15752-9/416254564_229762756884500_5050083700608708339_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEMt8jjZTEtn_GreL2TVYG8S7TkXl5c5JZLtOReXlzklhk0dDkNwv--04WqKhenVzWebcEiajVdeM3ne_fAydVy&_nc_ohc=iRyVOQvgDXAAX8b7Hwp&_nc_ht=scontent.fmnl17-2.fna&oh=03_AdSe7B8d5Ia9g3NJSZBi1B2VW__Dghbi7LYl4iHnyu6-sA&oe=6603A7DE" type="image/x-icon">
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <title>Homepage</title>
+  </head>
+  <div>
+    
+    <!-- TOGGLE SIDE BAR (HAMBUGER MENU) -->
+    <div class="header">
+      <!-- NAVIGATION BAR -->
+      <div class="topnav">
+        <a class="active" href="/HTML/faq.html">FAQ</a>
+        <a href="/HTML/ContactUs.html">Contact Us</a>
+        <a href="/HTML/About.html">About</a>
+      </div>
+      <!-- LOGO -->
+      <!-- If kung nagkaroon ng error sa link ng img>= Homepage.html. Paki re-link na lang -->
+      <div class="logo">
+        <a href="home-page.html"
+          ><img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.15752-9/416254564_229762756884500_5050083700608708339_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEMt8jjZTEtn_GreL2TVYG8S7TkXl5c5JZLtOReXlzklhk0dDkNwv--04WqKhenVzWebcEiajVdeM3ne_fAydVy&_nc_ohc=iRyVOQvgDXAAX8b7Hwp&_nc_ht=scontent.fmnl17-2.fna&oh=03_AdSe7B8d5Ia9g3NJSZBi1B2VW__Dghbi7LYl4iHnyu6-sA&oe=6603A7DE" alt=""
+        /></a>
+        <h3>EduQuiz</h3>
+      </div>
+    </div>
+
+    <!-- TOGGLE ICON  -->
+    <input type="checkbox" class="togggle-sidebar" id="togggle-sidebar" />
+    <label for="togggle-sidebar" class="toggle-icon">
+      <div class="bar-top"></div>
+      <div class="bar-center"></div>
+      <div class="bar-bottom"></div>
+    </label>
+
+    <div class="sidebar">
+      <div class="profile">
+        <img src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/423541781_1597380424450860_699125552750773037_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeENF9Po7kYAFTPZhGT2d-9iSwqhBsvgafBLCqEGy-Bp8Oq8rFPydDTk8zFCYoCqF_zVefFcIEOoTpP4v19fRHp4&_nc_ohc=CR8NGDfaAQ0AX9KLBSJ&_nc_oc=AQntsm06ZmvIY9djyS9lvYRAMg4MUmOdMn0MZUbmg0WJ4SIQqQsDScVbKtqXni28QgY&_nc_ht=scontent.fmnl17-4.fna&oh=03_AdQkJnhVgAZaUsRaUL5nSKoy7jRZsnwqKYgtTRupCsnbzw&oe=660384A7" alt="UI FILLED PROFILE" />
+   
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="/HTML/home-page.html"><ion-icon name="home-outline"></ion-icon>Home</a>
+        </li>
+        <li>
+          <a href="/HTML/Create.html"><ion-icon name="create-outline"></ion-icon>Create</a>
+        </li>
+        <li>
+          <a href="/HTML/library.html"><ion-icon name="library-outline"></ion-icon>Library</a>
+        </li>
+        <li>
+          <a href="/HTML/settings_personal-info.html"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+        </li>
+      </ul>
+      
+    </div>
+
+    <div class="content-1">
+        <!-- DITO MALALAGAY YUNG USERNAME PAG NAG SIGN UP SI USER  --> <!-- Hello <php?>Guest</php?>-->
+         <!-- TEMPORARY NOT AVAILABLE (BACKEND DEV CAN ONLY CHANGE THIS....-CJ) -->
+      <div class="intro">
+         <p>Hello, guest!</p>
+      <h1>Let's put ourselves to a challenge and get learning!</h1>
+      </div>
+      <!-- SEARCH TOPIC -->
+      <div class="search-bar">
+        <input type="text"class="icon" id="search" placeholder="Search any topic you like" >
+            <hr>
+      </div>
+    </div>
+    
+  </div>
+    <div class="content-2">
+    <nav >    
+        <a class="active" href="#">Quizzes</a>
+        <a href="#">Point Shop</a>
+        <a href="#">Groups</a>
+         <a href="#">Collection</a>
+    </nav>
+  </div>
+
+  </body>
+</html>

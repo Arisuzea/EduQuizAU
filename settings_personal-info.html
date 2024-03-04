@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/CSS/settings_personal-info.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <title>Settings</title>
+  </head>
+  <div>
+    
+    <!-- TOGGLE SIDE BAR (HAMBUGER MENU) -->
+    <div class="header">
+      <!-- NAVIGATION BAR -->
+      <div class="topnav">
+        <a class="active" href="/HTML/faq.html">FAQ</a>
+        <a href="/HTML/ContactUs.html">Contact Us</a>
+        <a href="/HTML/About.html">About</a>
+      </div>
+      <!-- LOGO -->
+      <!-- If kung nagkaroon ng error sa link ng img>= Homepage.html. Paki re-link na lang -->
+      <div class="logo">
+        <a href="/HTML/home-page.html"
+          ><img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.15752-9/416254564_229762756884500_5050083700608708339_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEMt8jjZTEtn_GreL2TVYG8S7TkXl5c5JZLtOReXlzklhk0dDkNwv--04WqKhenVzWebcEiajVdeM3ne_fAydVy&_nc_ohc=iRyVOQvgDXAAX8b7Hwp&_nc_ht=scontent.fmnl17-2.fna&oh=03_AdSe7B8d5Ia9g3NJSZBi1B2VW__Dghbi7LYl4iHnyu6-sA&oe=6603A7DE" alt=""
+        /></a>
+        <h3>EduQuiz</h3>
+      </div>
+    </div>
+   
+    <!-- TOGGLE ICON  -->
+    <input type="checkbox" class="togggle-sidebar" id="togggle-sidebar" />
+    <label for="togggle-sidebar" class="toggle-icon">
+      <div class="bar-top"></div>
+      <div class="bar-center"></div>
+      <div class="bar-bottom"></div>
+    </label>
+<!--  -->
+<div class="hero">
+    
+    <div class="container_1">
+        <h1>Settings</h1>
+        <a href="/HTML/settings_personal-info.html" id="id_1">Personal Info</a>
+        <a href="/HTML/settings_login-security.html"id="id_2">Login & Security</a>
+        <a href=""id="id_3">Appearance</a>
+           <!-- HR > Horizontal Rule (Line)  -->
+        <span class="hr_1"> <hr></span>
+     <span class="hr-faq">
+     <hr>
+  </span>
+    </div>
+  
+    <div class="container_2">
+<p>Profile Photo:</p>    
+
+  <img src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/423541781_1597380424450860_699125552750773037_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeENF9Po7kYAFTPZhGT2d-9iSwqhBsvgafBLCqEGy-Bp8Oq8rFPydDTk8zFCYoCqF_zVefFcIEOoTpP4v19fRHp4&_nc_ohc=CR8NGDfaAQ0AX9KLBSJ&_nc_oc=AQntsm06ZmvIY9djyS9lvYRAMg4MUmOdMn0MZUbmg0WJ4SIQqQsDScVbKtqXni28QgY&_nc_ht=scontent.fmnl17-4.fna&oh=03_AdQkJnhVgAZaUsRaUL5nSKoy7jRZsnwqKYgtTRupCsnbzw&oe=660384A7" alt="UI FILLED PROFILE">
+        <span class="btn_rmv_chng">
+            <button type="file"class="rmv_pht" id="rmv_pht"><a href="#">Remove photo</a></button>
+            <button class="chng_pht" id="chng_pht"> <a href="#">Change photo</a></button>
+        </span>
+         <!-- HR > Horizontal Rule (Line)  -->
+            <span class="hr_2">
+         <hr>
+        </span>
+    </div>
+    <div class="container_3">
+    <div class="edit-name_usrnme">
+        <div class="edit_name">
+            <label for="#">Name:</label>
+           <input type="text" name="change-name" id="change-name" required> <a href="">Edit</a>
+       </div>
+       <div class="edit_username">
+           <label for="#">Username:</label>
+          <input type="text" name="change-name" id="change-name" required> <a href="">Edit</a>
+       </div>
+    </div>
+  </div>
+</div>
+
+<!--  -->
+<div class="sidebar">
+    <div class="profile">
+      <img src="https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.15752-9/423541781_1597380424450860_699125552750773037_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeENF9Po7kYAFTPZhGT2d-9iSwqhBsvgafBLCqEGy-Bp8Oq8rFPydDTk8zFCYoCqF_zVefFcIEOoTpP4v19fRHp4&_nc_ohc=CR8NGDfaAQ0AX9KLBSJ&_nc_oc=AQntsm06ZmvIY9djyS9lvYRAMg4MUmOdMn0MZUbmg0WJ4SIQqQsDScVbKtqXni28QgY&_nc_ht=scontent.fmnl17-4.fna&oh=03_AdQkJnhVgAZaUsRaUL5nSKoy7jRZsnwqKYgtTRupCsnbzw&oe=660384A7" alt="UI FILLED PROFILE" />
+     
+    </div>
+    <ul class="menu">
+      <li>
+        <a href="/HTML/home-page.html"><ion-icon name="home-outline"></ion-icon>Home</a>
+      </li>
+      <li>
+        <a href="/HTML/Create.html"><ion-icon name="create-outline"></ion-icon>Create</a>
+      </li>
+      <li>
+        <a href="/HTML/library.html"><ion-icon name="library-outline"></ion-icon>Library</a>
+      </li>
+      <li>
+        <a href="/HTML/settings.html"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+      </li>
+    </ul>
+  </div> 
+  <!-- AMPANGET TIGNAN -->
+ <!-- <div class="hr_3"> <hr></div> -->
+ 
